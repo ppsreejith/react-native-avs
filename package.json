@@ -1,20 +1,80 @@
-
 {
-  "name": "react-native-avs",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "react-native-avs",
+        "scope": null,
+        "escapedName": "react-native-avs",
+        "name": "react-native-avs",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/sreeee/Dropbox/MyStuff/Code/Active/RNAlexaApp"
+    ]
+  ],
+  "_from": "react-native-avs@latest",
+  "_id": "react-native-avs@1.0.1",
+  "_inCache": true,
+  "_location": "/react-native-avs",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-avs-1.0.1.tgz_1495996305176_0.19041426805779338"
+  },
+  "_npmUser": {
+    "name": "ppsreejith",
+    "email": "mailz4sreejith@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-avs",
+    "scope": null,
+    "escapedName": "react-native-avs",
+    "name": "react-native-avs",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-avs/-/react-native-avs-1.0.1.tgz",
+  "_shasum": "941f4d5e3ac6ca6305184b19e957d9952651b472",
+  "_shrinkwrap": null,
+  "_spec": "react-native-avs",
+  "_where": "/Users/sreeee/Dropbox/MyStuff/Code/Active/RNAlexaApp",
+  "author": "",
+  "dependencies": {},
+  "description": "## Getting started",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "941f4d5e3ac6ca6305184b19e957d9952651b472",
+    "tarball": "https://registry.npmjs.org/react-native-avs/-/react-native-avs-1.0.1.tgz"
   },
   "keywords": [
     "react-native"
   ],
-  "author": "",
   "license": "",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ppsreejith",
+      "email": "mailz4sreejith@gmail.com"
+    }
+  ],
+  "name": "react-native-avs",
+  "optionalDependencies": {},
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
-
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }

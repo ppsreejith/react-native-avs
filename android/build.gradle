@@ -16,7 +16,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -28,9 +28,11 @@ android {
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
+    compile 'com.willblaschko.android.alexa:AlexaAndroid:2.4.2'
 }
   

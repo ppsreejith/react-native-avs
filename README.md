@@ -11,14 +11,6 @@
 
 ### Manual installation
 
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-avs` and add `RNAvs.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNAvs.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
@@ -34,13 +26,24 @@
       compile project(':react-native-avs')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
+### Post Installation
+1. Currently, we'll have to increase the min-sdk version of andorid to 21 from 16 which involves changing the android/app/src/main/AndroidManifest.xml file. Edit the
+`android:minSdkVersion="16"` line from 16 to 21.
+2. Add the `multiDexEnabled true` line to android/app/build.gradle file
+```
+android {
+    defaultConfig {
+        multiDexEnabled true
+        ...
+    }
+    ...
+}
+```
 
-1. In Visual Studio add the `RNAvs.sln` in `node_modules/react-native-avs/windows/RNAvs.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Com.Reactlibrary.RNAvs;` to the usings at the top of the file
-  - Add `new RNAvsPackage()` to the `List<IReactPackage>` returned by the `Packages` method
+3. Follow the process for creating a connected device detailed in https://developer.amazon.com/appsandservices/solutions/alexa/alexa-voice-service/getting-started-with-the-alexa-voice-service
+4. Follow the instructions for adding your key and preparing the Login with Amazon activity from the 'Login with Amazon' Android Project guide
+5. Add your api_key.txt file (part of the Login with Amazon process detailed in the link above) to the app/src/main/assets folder.
+6. Start integration and testing!
 
 
 ## Usage

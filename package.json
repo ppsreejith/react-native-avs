@@ -24,7 +24,6 @@
   },
   "_npmUser": {
     "name": "ppsreejith",
-    "email": "mailz4sreejith@gmail.com"
   },
   "_npmVersion": "3.10.8",
   "_phantomChildren": {},
@@ -60,12 +59,6 @@
   ],
   "license": "",
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "ppsreejith",
-      "email": "mailz4sreejith@gmail.com"
-    }
-  ],
   "name": "react-native-avs",
   "optionalDependencies": {},
   "peerDependencies": {
